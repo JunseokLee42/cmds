@@ -12,3 +12,4 @@
 12. ctrl+shift+p -> Cwd path setting
 13. unzip -qq (your zip file name)
 14. gdown --fuzzy (drive link)
+15. df # storage
