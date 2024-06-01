@@ -5,3 +5,6 @@
 5. htop
 6. conda install pytorch=='your version' torchvision=='version' torchaudio=='version' pytorch-cuda='cuda-version' -c pytorch -c nvidia
 7. cuda_is_available() module in pytorch
+8. conda env list
+9. conda create -n (your env name)
+10. conda env remove --name (your env name)
