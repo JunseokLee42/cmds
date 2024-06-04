@@ -1,0 +1,22 @@
+# command
+1. nohup
+2. tail -f output.log
+3. jobs
+4. top
+5. htop
+6. df # storage
+
+# conda
+7. conda install pytorch=='your version' torchvision=='version' torchaudio=='version' pytorch-cuda='cuda-version' -c pytorch -c nvidia
+8. cuda_is_available() module in pytorch
+9. conda env list
+10. conda create -n (your env name)
+11. conda env remove --name (your env name)
+12. conda activate/deactivate
+
+# vs code
+13. ctrl+shift+p -> Cwd path setting
+
+# zip file
+14. unzip -qq (your zip file name)
+15. gdown --fuzzy (drive link)
