@@ -7,6 +7,14 @@
 6. df # storage
 7. pwd # current working directory
 8. nvcc -V # check your CUDA version
+9. clone not all but certain directories(you can test it via huggingface/transformers library)
+1) git clone --no-checkout <repo_url>
+2) cd repo_directory
+3) git sparse-checkout init --cone
+4) git sparse-checkout set directory1 directory2 ..
+5) git checkout main
+
+10. du -sh . # output directory's capacity
 
 # conda
 7. conda install pytorch=='your version' torchvision=='version' torchaudio=='version' pytorch-cuda='cuda-version' -c pytorch -c nvidia
