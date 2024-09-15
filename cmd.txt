@@ -6,6 +6,7 @@
 5. htop
 6. df # storage
 7. pwd # current working directory
+8. nvcc -V # check your CUDA version
 
 # conda
 7. conda install pytorch=='your version' torchvision=='version' torchaudio=='version' pytorch-cuda='cuda-version' -c pytorch -c nvidia
