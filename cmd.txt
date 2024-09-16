@@ -17,20 +17,34 @@
 10. du -sh . # output directory's capacity
 
 # conda
-7. conda install pytorch=='your version' torchvision=='version' torchaudio=='version' pytorch-cuda='cuda-version' -c pytorch -c nvidia
-8. cuda_is_available() module in pytorch
-9. conda env list
-10. conda create -n (your env name)
-11. conda env remove --name (your env name)
-12. conda activate/deactivate
+1. conda install pytorch=='your version' torchvision=='version' torchaudio=='version' pytorch-cuda='cuda-version' -c pytorch -c nvidia
+2. cuda_is_available() module in pytorch
+3. conda env list
+4. conda create -n (your env name)
+5. conda env remove --name (your env name)
+6. conda activate/deactivate
 
 # vs code
 13. ctrl+shift+p -> Cwd path setting
 14. Ctrl+c: Occur KeyInterrupt during code execution.
 
 # zip file
-14. unzip -qq (your zip file name)
-15. gdown --fuzzy (drive link)
-16. wget <your_url>
-17. curl -0 <your_url>
-18. unzip file_name.zip -d /path/to/directory
+1. unzip -qq (your zip file name) # -q: quiet mode, -qq: without any output
+2. gdown --fuzzy (drive link)
+3. wget <your_url>
+4. curl -0 <your_url>
+5. unzip file_name.zip -d /path/to/directory
+
+# Git
+1. git branch # print all branches
+2. git checkout <branch_name> # move other branch
+3. git checkout -b <branch_name> # create a branch and move to it
+4. How to set username and email
+1) git config user.name "Your Name"
+2) git config user.email "you@example.com"
+5. git config (--global) --list # () means that it is optional
+6. git log # print commit logs
+
+# pip
+1. pip freeze > requirements.txt
+
