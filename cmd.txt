@@ -33,3 +33,4 @@
 15. gdown --fuzzy (drive link)
 16. wget <your_url>
 17. curl -0 <your_url>
+18. unzip file_name.zip -d /path/to/directory
