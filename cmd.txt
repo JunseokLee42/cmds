@@ -26,6 +26,7 @@
 
 # vs code
 13. ctrl+shift+p -> Cwd path setting
+14. Ctrl+c: Occur KeyInterrupt during code execution.
 
 # zip file
 14. unzip -qq (your zip file name)
