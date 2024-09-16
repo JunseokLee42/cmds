@@ -30,3 +30,5 @@
 # zip file
 14. unzip -qq (your zip file name)
 15. gdown --fuzzy (drive link)
+16. wget <your_url>
+17. curl -0 <your_url>
