@@ -48,3 +48,6 @@
 # pip
 1. pip freeze > requirements.txt
 
+# csv, xlsx extension
+If you change the file which extension is csv, then you should save xlsx extension for reflection on change.
+(csv 파일의 세팅을 변경했다면, 변경사항이 반영되도록 xlsx 확장자로 저장하여야 합니다.)
