@@ -24,7 +24,7 @@
 
 # zip file
 1. unzip -qq (your zip file name) # -q: quiet mode, -qq: without any output
-2. gdown --fuzzy (drive link)
+2. gdown --fuzzy (drive link) # for files stored in google drive
 3. wget <your_url>
 4. curl -0 <your_url>
 5. unzip file_name.zip -d /path/to/directory
@@ -33,12 +33,15 @@
 1. git branch # print all branches
 2. git checkout <branch_name> # move other branch
 3. git checkout -b <branch_name> # create a branch and move to it
+
 4. How to set username and email
 1) git config user.name "Your Name"
 2) git config user.email "you@example.com"
+
 5. git config (--global) --list # () means that it is optional
 6. git log # print commit logs
-7. clone not all but certain directories (you can test it via huggingface/transformers library)
+
+7. clone not all but certain directories (you can test it via huggingface/transformers repository)
 1) git clone --no-checkout <repo_url>
 2) cd repo_directory
 3) git sparse-checkout init --cone
@@ -49,5 +52,5 @@
 1. pip freeze > requirements.txt
 
 # csv, xlsx extension
-If you change the file which extension is csv, then you should save xlsx extension for reflection on change.
-(csv 파일의 세팅을 변경했다면, 변경사항이 반영되도록 xlsx 확장자로 저장하여야 합니다.)
+If you change the file which extension is csv, then you might as well save xlsx extension to ensure that changes are applied in terms of visualization.
+(csv 파일의 세팅을 변경했다면, 시각화 측면에서 변경사항이 반영되도록 xlsx 확장자로 저장하는 게 낫다.)
