@@ -15,7 +15,7 @@
 2. cuda_is_available() module in pytorch
 3. conda env list
 4. conda create -n (your env name)
-5. conda env remove --name (your env name)
+5. conda env remove --name (your env name) --all
 6. conda activate/deactivate
 
 # vs code
