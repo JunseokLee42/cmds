@@ -54,3 +54,17 @@
 # csv, xlsx extension
 If you change the file which extension is csv, then you might as well save xlsx extension to ensure that changes are applied in terms of visualization.
 (csv 파일의 세팅을 변경했다면, 시각화 측면에서 변경사항이 반영되도록 xlsx 확장자로 저장하는 게 낫다.)
+
+# linux
+1. vi file-name # open file
+2. i # insert mode
+3. When you press ESC, then linux is changed to command mode
+4. Save
+4-1) :wq # save changes and exit
+4-2) :w # save changes without exit
+4-3) :qa! # exit without saving
+5. Delete
+5-1) x # delete one character
+5-2) dw # delete a word
+5-3) d$ # delete a line after cursor
+
