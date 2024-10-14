@@ -76,8 +76,6 @@ If you change the file which extension is csv, then you might as well save xlsx 
 - printf isn't used in kernel mode, instead printk is done.
 11. copy file
 cp <target-file> <target-directory>
-12. dmesg -C
-clear kernel log
-13. transfer file or directory of virtualbox(guestOS) to local computer(HostOS)
-scp -r <file or directory-source> HostOS's username@host_ip:destination-path
+12. dmesg -C # clear kernel log
+13. $scp -r source-path HostOS's username@host_ip:destination-path # transfer file or directory of virtualbox(guestOS) to local computer(HostOS)
 ex. scp -r /hw js@192.168.x.x:/Users/JS/Desktop/
