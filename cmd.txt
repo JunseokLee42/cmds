@@ -68,8 +68,13 @@ If you change the file which extension is csv, then you might as well save xlsx 
 5-2) dw # delete a word
 5-3) d$ # delete a line after cursor
 6. touch (file-name) # create an empty file which called in file-name
+6-1) filename > result.txt # output result or log
 7. ls -l (file_name) # check owner, group, and others permission on [r]ead, [w]rite, and e[x]ecution
 8. vi (file-name) # modify the file called in file-name. Before executing this command, you might as well check your permission on read, write, and execution via number 7 cmd
 9. Although you chanage your file's mode via chmod command, it cannot be changed because of parent directory's permission. Therefore, you could check the upper directory's permission.
 10. print function
 - printf isn't used in kernel mode, instead printk is done.
+11. copy file
+cp <target-file> <target-directory>
+12. dmesg -C
+clear kernel log
