@@ -1,4 +1,4 @@
-# command
+# Multi-gpu Training
 1. nohup
 2. tail -f output.log
 3. jobs
@@ -7,8 +7,8 @@
 6. df # storage
 7. pwd # current working directory
 8. nvcc -V # check your CUDA version
-
-10. du -sh . # output directory's capacity
+9. du -sh . # output directory's capacity
+10. nvidia-smi | grep python | awk '{print $5}' | xargs -I{} ps -p {} -o pid,cmd # check all running process' id and command.
 
 # conda
 1. conda install pytorch=='your version' torchvision=='version' torchaudio=='version' pytorch-cuda='cuda-version' -c pytorch -c nvidia
