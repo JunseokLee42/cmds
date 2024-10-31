@@ -1,7 +1,8 @@
 <details>
 <summary>Tips for Multi-GPUs</summary>
 ## Multi-gpu
-storage
+
+**1. storage**
 ```
 $ df
 ```
@@ -20,10 +21,6 @@ $ du -sh .
 Check all running processes' id and command.
 ```
 $ nvidia-smi | grep python | awk '{print $5}' | xargs -I{} ps -p {} -o pid,cmd
-```
-
-```
-$ nohup
 ```
 
 ```
