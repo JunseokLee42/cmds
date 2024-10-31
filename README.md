@@ -1,10 +1,10 @@
 ## Multi-gpu
 
-** 1. storage **
+storage
 ```
 $ df
 ```
-** 2. print current working directory **
+print current working directory
 ```
 $ pwd
 ```
@@ -130,11 +130,19 @@ git log # print commit logs
 
 clone not all but certain directories (you can test it via huggingface/transformers repository)
 ```
-1) git clone --no-checkout <repo_url>
-2) cd repo_dire
-3) git sparse-checkout init --cone
-4) git sparse-checkout set dir1 dir2 ..
-5) git checkout main
+git clone --no-checkout <repo_url>
+```
+```
+cd repo_dir
+```
+```
+git sparse-checkout init --cone
+```
+```
+git sparse-checkout set dir1 dir2 ..
+```
+```
+git checkout main
 ```
 
 ## pip
