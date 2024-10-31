@@ -1,44 +1,47 @@
+<details>
+<summary>Tips for Multi-GPUs</summary>
 ## Multi-gpu
-
-```
-nohup
-```
-
-```
-tail -f output.log
-```
-
-```
-jobs
-```
-
-```
-top
-```
-
-```
-htop
-```
 storage
 ```
-df
+$ df
 ```
 Current working directory
 ```
-pwd
+$ pwd
 ```
 Check your CUDA version
 ```
-nvcc -V
+$ nvcc -V
 ```
 Output directory's capacity
 ```
-du -sh .
+$ du -sh .
 ```
 Check all running processes' id and command.
 ```
-nvidia-smi | grep python | awk '{print $5}' | xargs -I{} ps -p {} -o pid,cmd
+$ nvidia-smi | grep python | awk '{print $5}' | xargs -I{} ps -p {} -o pid,cmd
 ```
+
+```
+$ nohup
+```
+
+```
+$ tail -f output.log
+```
+
+```
+$ jobs
+```
+
+```
+$ top
+```
+
+```
+$ htop
+```
+</details>
 
 ## conda
 1. conda install pytorch=='your version' torchvision=='version' torchaudio=='version' pytorch-cuda='cuda-version' -c pytorch -c nvidia
