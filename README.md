@@ -114,8 +114,8 @@ create a branch and move to it
 git checkout -b <branch_name>
 ```
 
+How to set user name and email
 ```
-# How to set user name and email
 git config user.name "Your Name"
 git config user.email "you@example.com"
 ```
@@ -139,7 +139,7 @@ cd repo_dir
 git sparse-checkout init --cone
 ```
 ```
-git sparse-checkout set dir1 dir2 ..
+git sparse-checkout set dir1 dir2 ...
 ```
 ```
 git checkout main
