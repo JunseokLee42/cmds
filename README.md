@@ -1,20 +1,44 @@
 ## Multi-gpu
 
-'''
+```
 nohup
-'''
+```
 
-'''
+```
 tail -f output.log
-'''
-3. jobs
-4. top
-5. htop
-6. df # storage
-7. pwd # current working directory
-8. nvcc -V # check your CUDA version
-9. du -sh . # output directory's capacity
-10. nvidia-smi | grep python | awk '{print $5}' | xargs -I{} ps -p {} -o pid,cmd # check all running process' id and command.
+```
+
+```
+jobs
+```
+
+```
+top
+```
+
+```
+htop
+```
+storage
+```
+df
+```
+Current working directory
+```
+pwd
+```
+Check your CUDA version
+```
+nvcc -V
+```
+Output directory's capacity
+```
+du -sh .
+```
+Check all running processes' id and command.
+```
+nvidia-smi | grep python | awk '{print $5}' | xargs -I{} ps -p {} -o pid,cmd
+```
 
 ## conda
 1. conda install pytorch=='your version' torchvision=='version' torchaudio=='version' pytorch-cuda='cuda-version' -c pytorch -c nvidia
