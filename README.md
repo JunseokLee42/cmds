@@ -2,39 +2,39 @@
 
 storage
 ```
-$ df
+df
 ```
 print current working directory
 ```
-$ pwd
+pwd
 ```
 Check your CUDA version
 ```
-$ nvcc -V
+nvcc -V
 ```
 Output directory's capacity
 ```
-$ du -sh .
+du -sh .
 ```
 Check all running processes' id and command.
 ```
-$ nvidia-smi | grep python | awk '{print $5}' | xargs -I{} ps -p {} -o pid,cmd
+nvidia-smi | grep python | awk '{print $5}' | xargs -I{} ps -p {} -o pid,cmd
 ```
 
 ```
-$ tail -f output.log
+tail -f output.log
 ```
 
 ```
-$ jobs
+jobs
 ```
 
 ```
-$ top
+top
 ```
 
 ```
-$ htop
+htop
 ```
 
 ## conda
