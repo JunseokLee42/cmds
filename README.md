@@ -34,26 +34,29 @@ htop
 ```
 
 ## conda
+<strong>1. Install pytorch library with cuda</strong>
+
+You might as well check whether cuda version is aligned with pytorch one.
 ```
 conda install pytorch=='your version' torchvision=='version' torchaudio=='version' pytorch-cuda='cuda-version' -c pytorch -c nvidia
 ```
-
+<strong>2. Check whether to be ready for running GPU or installed cuda on your OS </strong>
 ```
 cuda_is_available() module in pytorch
 ```
-
+<strong>3. List of conda virtual environments</strong>
 ```
 conda env list
 ```
-
+<strong>4. Create conda virtual environment python version is specified</strong>
 ```
-conda create -n (env name)
+conda create -n (env name) python='version'
 ```
-
+<strong>5. Remove your conda virtual environment</strong>
 ```
 conda env remove --name (env name) --all
 ```
-
+<strong>6. Activate/Deactivate conda virtual environment</strong>
 ```
 conda activate/deactivate
 ```
