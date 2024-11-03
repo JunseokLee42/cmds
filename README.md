@@ -192,6 +192,7 @@ i
 
 When you press ESC, then linux will be changed to command mode.
 
+<h3><strong>3.Save</strong></h3>
 <strong>3-1. Save changes and exit</strong>
 ```
 :wq
@@ -204,6 +205,8 @@ When you press ESC, then linux will be changed to command mode.
 ```
 :qa!
 ```
+
+<h3><strong>4. Delete</strong></h3>
 <strong>4-1. Delete one character</strong>
 ```
 x
