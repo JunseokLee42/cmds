@@ -38,7 +38,8 @@ htop
 ```
 </details>
 
-## conda
+<details>
+<summary><h2><strong>Conda</strong></h2></summary>
 <strong>1. Install pytorch library with cuda</strong>
 
 You might as well check whether cuda version is aligned with pytorch one.
@@ -65,8 +66,10 @@ conda env remove --name (env name) --all
 ```
 conda activate/deactivate
 ```
+</details>
 
-## vs code
+<details>
+  <summary><h2><strong>VS Code</strong></h2></summary>
 **1. Cwd path setting**
 ```
 ctrl+shift+p
@@ -76,9 +79,10 @@ ctrl+shift+p
 ```
 ctrl+c
 ```
+</details>
 
-## zip file
-
+<details>
+<summary><h2><strong>zip extension</strong></h2></summary>
 -q: quiet mode, -qq: without any output
 ```
 unzip -qq (your zip file name)
@@ -101,8 +105,10 @@ curl -0 <your_url>
 ```
 file_name.zip -d /path/to/directory
 ```
+</details>
 
-## Git
+<details>
+  <summary><h2><strong>Git</strong></h2></summary>
 print all branches
 ```
 git branch
@@ -148,17 +154,23 @@ git sparse-checkout set dir1 dir2 ...
 ```
 git checkout main
 ```
+</details>
 
-## pip
+<details>
+  <summary><h2><strong>pip</strong></h2></summary>
 ```
 pip freeze > requirements.txt
 ```
+</details>
 
-## csv, xlsx extension
+<details>
+  <summary><h2><strong>csv, xlsx extension</strong></h2></summary>
 If you change the file which extension is csv, then you might as well save xlsx extension to ensure that changes are applied in terms of visualization.
 (csv 파일의 세팅을 변경했다면, 시각화 측면에서 변경사항이 반영되도록 xlsx 확장자로 저장하는 게 낫다.)
+</details>
 
-## linux
+<details>
+  <summary><h2><strong>Linux</strong></h2></summary>
 Open file
 ```
 vi file-name
@@ -249,6 +261,7 @@ log last access time, modified time and last change mode time
 ```
 stat file-name
 ```
+</details>
 
 # Reference
 [Github Docs](https://docs.github.com/ko/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
