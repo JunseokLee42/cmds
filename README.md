@@ -70,36 +70,38 @@ conda activate/deactivate
 
 <details>
 <summary><h2><strong>VS Code</strong></h2></summary>
-**1. Cwd path setting**
+<strong>1. Cwd path setting</strong>
 ```
 ctrl+shift+p
 ```
-
-**2. KeyInterrupt during code execution**
+<strong>2. KeyInterrupt during code execution</strong>
 ```
 ctrl+c
+```
+or you can insert process termination call(i.e., exit()) into your code snippet 
+```
+exit()
 ```
 </details>
 
 <details>
 <summary><h2><strong>zip extension</strong></h2></summary>
--q: quiet mode, -qq: without any output
+<strong>Unzip your file in specified directory</strong>
 ```
+# -q: quiet mode, -qq: without any output
+unzip file_name.zip -d /path/to/directory
 unzip -qq (your zip file name)
 ```
 
-for files stored in google drive
+<strong>Download files stored in google drive</strong>
 ```
 pip install gdown
 gdown --fuzzy (google drive link)
 ```
 
+<strong>Alternative to the above</strong>
 ```
 wget <your_url>
-```
-
-```
-curl -0 <your_url>
 ```
 
 ```
@@ -109,36 +111,38 @@ file_name.zip -d /path/to/directory
 
 <details>
 <summary><h2><strong>Git</strong></h2></summary>
-print all branches
+<strong>1. Print all branches</strong>
 ```
 git branch
 ```
 
-move other branch
+<strong>2. move other branch</strong>
 ```
 git checkout <branch_name>
 ```
 
-create a branch and move to it
+<strong>3. Create a branch and move to it</strong>
 ```
 git checkout -b <branch_name>
 ```
 
-How to set user name and email
+<strong>4. Setting user name and email</strong>
 ```
 git config user.name "Your Name"
 git config user.email "you@example.com"
 ```
 
+<strong>5. Check git's global setting</strong>
 ```
 git config --global --list
 ```
 
+<strong>6. Print commit logs</strong>
 ```
-git log # print commit logs
+git log
 ```
 
-clone not all but certain directories (you can test it via huggingface/transformers repository)
+<strong>7. Clone not all but certain directories for big size repository(you can test it via [transformers](https://github.com/huggingface/transformers))</strong>
 ```
 git clone --no-checkout <repo_url>
 ```
@@ -158,6 +162,7 @@ git checkout main
 
 <details>
 <summary><h2><strong>pip</strong></h2></summary>
+<strong>1. Itemize installed libraries</strong>
 ```
 pip freeze > requirements.txt
 ```
@@ -171,97 +176,78 @@ If you change the file which extension is csv, then you might as well save xlsx 
 
 <details>
 <summary><h2><strong>Linux</strong></h2></summary>
-Open file
+<strong>1. Open file</strong>
 ```
 vi file-name
 ```
-
-insert mode
+<strong>2. Access via insert mode</strong>
 ```
 i
 ```
 
 When you press ESC, then linux will be changed to command mode.
 
-Save
-1) save changes and exit
+<strong>3-1. Save changes and exit</strong>
 ```
 :wq
 ```
-
-2) save changes without exit
+<strong>3-2. Save changes without exit</strong>
 ```
 :w
 ```
-
-3) exit without saving
+<strong>3-3. Exit without saving</strong>
 ```
 :qa!
 ```
-
-Delete
-1) delete one character
+<strong>4-1. Delete one character</strong>
 ```
 x
 ```
-
-2) delete a word
+<strong>4-2. Delete a word</strong>
 ```
 dw
 ```
-
-3) delete a line after cursor
+<strong>4-3. Delete a line after cursor</strong>
 ```
 d$
 ```
-
-create an empty file which called in file-name
+<strong>4-4. Create an empty file which called in file-name</strong>
 ```
 touch
 ```
-
-output result or log
+<strong>5. Output result or log</strong>
 ```
 filename > result.txt
 ```
-
-check owner, group, and others permission on [r]ead, [w]rite, and e[x]ecution
+<strong>6. Check owner, group, and others permission on [r]ead, [w]rite, and e[x]ecution</strong>
 ```
 ls -l (file_name)
 ```
-
-modify the file called in file-name. Before executing this command, you might as well check your permission on read, write, and execution.
+<strong>7. Modify the file called in file-name. Before executing this command, you might as well check your permission on read, write, and execution.</strong>
 ```
 vi (file-name)
 ```
 Although you chanage your file's mode via chmod command, it cannot be changed because of parent directory's permission. Therefore, you could check the upper directory's permission.
 
-print function - printk is used in kernel mode instead of printf.
+<strong>8. printk is used in kernel mode instead of printf</strong>
 ```
 printk
 ```
-
-copy file
+<strong>9. Copy target file</strong>
 ```
 cp <target-file> <target-directory>
 ```
-
-clear kernel log
+<strong>10. Clear kernel log</strong>
 ```
 dmesg -C
 ```
-
-transfer file or directory of virtualbox(guestOS) to local computer(HostOS)
+<strong>11. Transfer file or directory of virtualbox(guestOS) to local computer(HostOS)</strong>
 ```
 $scp -r source-path HostOS's username@host_ip:destination-path
+e.g., scp -r /hw js@192.x.x.x:/Users/JS/Desktop/
 ```
-ex. scp -r /hw js@192.x.x.x:/Users/JS/Desktop/
-
-log last access time, modified time and last change mode time
+<strong>12. Log last access time, modified time and last change mode time</strong>
 ```
 stat file-name
 ```
 </details>
-
-# Reference
-[Github Docs](https://docs.github.com/ko/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
