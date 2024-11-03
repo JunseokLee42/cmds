@@ -1,5 +1,5 @@
-[!NOTE]
-This repo is about a set of commands which might be useful for AI coding.
+> [!NOTE]
+> This repo is about a set of commands which might be useful for AI coding.
 
 ## Multi-gpu
 
