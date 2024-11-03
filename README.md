@@ -1,7 +1,8 @@
 > [!NOTE]
 > This repo is about a set of commands which might be useful for AI coding.
 
-## Multi-gpu
+<details>
+<summary>Multi-gpu</summary>
 
 1. <strong>Check current storage capacity</strong>
 ```
@@ -35,6 +36,7 @@ top
 ```
 htop
 ```
+</details>
 
 ## conda
 <strong>1. Install pytorch library with cuda</strong>
