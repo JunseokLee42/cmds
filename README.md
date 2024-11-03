@@ -1,38 +1,34 @@
 ## Multi-gpu
 
-storage
+1. <strong>Check current storage capacity</strong>
 ```
-df
+df -h
 ```
-print current working directory
+2. <strong>print current working directory</strong>
 ```
 pwd
 ```
-Check your CUDA version
+3. <strong>Check your CUDA version</strong>
 ```
 nvcc -V
 ```
-Output directory's capacity
+4. <strong>Output current directory's capacity</strong>
 ```
 du -sh .
 ```
-Check all running processes' id and command.
+5. <strong>Check all running processes' id and command</strong>
 ```
 nvidia-smi | grep python | awk '{print $5}' | xargs -I{} ps -p {} -o pid,cmd
 ```
-
-```
-tail -f output.log
-```
-
+6. <strong>Print list of currently running prcoesses on background</strong>
 ```
 jobs
 ```
-
+7. <strong>Monitor resource usage and running processs</strong>
 ```
 top
 ```
-
+8. <strong>Similar to top, but better in terms of visualization</strong>
 ```
 htop
 ```
