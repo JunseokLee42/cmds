@@ -2,7 +2,7 @@
 > This repo is about a set of commands which might be useful for AI coding.
 
 <details>
-<summary>Multi-gpu</summary>
+<summary><h2><strong>Multi-gpu</strong></h2></summary>
 
 1. <strong>Check current storage capacity</strong>
 ```
