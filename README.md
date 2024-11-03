@@ -70,6 +70,7 @@ conda activate/deactivate
 
 <details>
 <summary><h2><strong>VS Code</strong></h2></summary>
+
 <strong>1. Cwd path setting</strong>
 ```
 ctrl+shift+p
@@ -86,6 +87,7 @@ exit()
 
 <details>
 <summary><h2><strong>zip extension</strong></h2></summary>
+
 <strong>Unzip your file in specified directory</strong>
 ```
 # -q: quiet mode, -qq: without any output
@@ -111,6 +113,7 @@ file_name.zip -d /path/to/directory
 
 <details>
 <summary><h2><strong>Git</strong></h2></summary>
+  
 <strong>1. Print all branches</strong>
 ```
 git branch
@@ -162,6 +165,7 @@ git checkout main
 
 <details>
 <summary><h2><strong>pip</strong></h2></summary>
+
 <strong>1. Itemize installed libraries</strong>
 ```
 pip freeze > requirements.txt
@@ -176,6 +180,7 @@ If you change the file which extension is csv, then you might as well save xlsx 
 
 <details>
 <summary><h2><strong>Linux</strong></h2></summary>
+
 <strong>1. Open file</strong>
 ```
 vi file-name
