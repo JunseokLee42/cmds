@@ -2,6 +2,42 @@
 > This repo is about a set of commands which might be useful for AI coding.
 
 <details>
+<summary><h2><strong>tmux </strong></h2></summary>
+
+tmux is useful when you have to utilize multiple terminals concurrently without termination.(i.e., efficient terminal usage!)
+
+Multiple sessions can be created via tmux, and it results in more efficient terminal mangement than single one.
+
+0. <strong><h2>Prerequisite</h2></strong>
+```
+sudo apt-get install tmux
+```
+1. <strong><h2>Create a session</h2></strong>
+```
+tmux new -s <sessions_name>
+```
+2. <strong><h2>Print out information on session(e.g., session name, the number of windows, current attached session)</h2></strong>
+```
+tmux ls
+```
+3. <strong><h2>Enter a session</h2></strong>
+```
+tmux attach -t <session_name>
+```
+4. <strong><h2>Detach from a session</h2></strong>
+
+If using this command, you need to the former and the latter separately not concurrently(i.e., 1) ctrl+b, 2) d
+```
+ctrl+b -> d
+```
+5. <strong><h2>Create a new window</h2></strong>
+```
+ctrl+b -> c
+```
+
+</details>
+
+<details>
 <summary><h2><strong>Multi-gpu</strong></h2></summary>
 
 1. <strong>Check current storage capacity</strong>
@@ -34,7 +70,7 @@ top
 ```
 8. <strong>Similar to top, but better in terms of visualization</strong>
 ```
-nvtop
+nvtop # recommended
 htop
 ```
 </details>
