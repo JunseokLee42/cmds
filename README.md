@@ -8,29 +8,31 @@ tmux is useful when you have to utilize multiple terminals concurrently without 
 
 Multiple sessions can be created via tmux, and it results in more efficient terminal mangement than single one.
 
-0. <strong><h2>Prerequisite</h2></strong>
+0. <strong>Prerequisite</strong>
 ```
 sudo apt-get install tmux
 ```
-1. <strong><h2>Create a session</h2></strong>
+1. <strong>Create a session</strong>
 ```
 tmux new -s <sessions_name>
 ```
-2. <strong><h2>Print out information on session(e.g., session name, the number of windows, current attached session)</h2></strong>
+2. <strong>Print out information on session</strong>
+
+Information includes in session name, the number of windows, and current attached session
 ```
 tmux ls
 ```
-3. <strong><h2>Enter a session</h2></strong>
+3. <strong>Enter a session</strong>
 ```
 tmux attach -t <session_name>
 ```
-4. <strong><h2>Detach from a session</h2></strong>
+4. <strong>Detach from a session</strong>
 
 If using this command, you need to the former and the latter separately not concurrently(i.e., 1) ctrl+b, 2) d
 ```
 ctrl+b -> d
 ```
-5. <strong><h2>Create a new window</h2></strong>
+5. <strong>Create a new window</strong>
 ```
 ctrl+b -> c
 ```
