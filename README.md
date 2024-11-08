@@ -34,6 +34,7 @@ top
 ```
 8. <strong>Similar to top, but better in terms of visualization</strong>
 ```
+nvtop
 htop
 ```
 </details>
