@@ -299,4 +299,8 @@ e.g., scp -r /hw js@192.x.x.x:/Users/JS/Desktop/
 ```
 stat file-name
 ```
+<strong>13. remove contents in file but preserve file itself</strong>
+```
+> file-name
+```
 </details>
