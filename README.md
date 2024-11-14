@@ -1,5 +1,5 @@
 > [!NOTE]
-> This repo is about a set of commands which might be useful for AI coding.
+> This repo is about a set of commands which might be useful for coding.
 
 <details>
 <summary><h2><strong>tmux </strong></h2></summary>
