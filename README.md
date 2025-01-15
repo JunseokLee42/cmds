@@ -295,11 +295,16 @@ dmesg -C
 $scp -r source-path HostOS's username@host_ip:destination-path
 e.g., scp -r /hw js@192.x.x.x:/Users/JS/Desktop/
 ```
-<strong>12. Log last access time, modified time and last change mode time</strong>
+<strong>(Recommended) 12. Another methods of 11.</strong>
+```
+$ssh serverA_username@ip # access serverA via ssh
+$sftp -P port_num serverB_username@ip # Access serverA to serverB via sftp
+```
+<strong>13. Log last access time, modified time and last change mode time</strong>
 ```
 stat file-name
 ```
-<strong>13. remove contents in file but preserve file itself</strong>
+<strong>14. remove contents in file but preserve file itself</strong>
 ```
 > file-name
 ```
