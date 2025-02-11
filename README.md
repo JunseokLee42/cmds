@@ -82,11 +82,10 @@ htop
 <strong>1. Install pytorch library with cuda</strong>
 
 You might as well check whether cuda version is aligned with pytorch one.
+You can refer to the below regarding to the version;
+[Pytorch previous version](https://pytorch.org/get-started/previous-versions/)
 ```
 conda install pytorch=='your version' torchvision=='version' torchaudio=='version' pytorch-cuda='cuda-version' -c pytorch -c nvidia
-
-You can refer to the link;
-[Pytorch previous version](https://pytorch.org/get-started/previous-versions/)
 ```
 <strong>2. Check whether to be ready for running GPU or installed cuda on your OS </strong>
 ```
