@@ -105,6 +105,11 @@ conda env remove --name (env name) --all
 ```
 conda activate/deactivate
 ```
+<strong>7. Create a new conda environment with old library</strong>
+```
+conda create --name <new_name> --clone <old_env_name>
+e.g., conda create --name new_nev --clone llara
+```
 </details>
 
 <details>
