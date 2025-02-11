@@ -208,6 +208,19 @@ git sparse-checkout set dir1 dir2 ...
 ```
 git checkout main
 ```
+
+<strong>8. Git lfs installation</strong>
+
+You can download [the specific version of lfs](https://github.com/git-lfs/git-lfs/releases) depending on your OS if you are not a root manager.
+```
+$ tar -xvzf <git-fls-tar.gz file_name>
+$ cd <generated_tar.gz file_name>
+ 
+$ ./install.sh
+
+# You can check whether to succeed to install git lfs via the below command.
+$ git lfs install
+```
 </details>
 
 <details>
