@@ -84,6 +84,9 @@ htop
 You might as well check whether cuda version is aligned with pytorch one.
 ```
 conda install pytorch=='your version' torchvision=='version' torchaudio=='version' pytorch-cuda='cuda-version' -c pytorch -c nvidia
+
+You can refer to the link;
+[Pytorch previous version](https://pytorch.org/get-started/previous-versions/)
 ```
 <strong>2. Check whether to be ready for running GPU or installed cuda on your OS </strong>
 ```
