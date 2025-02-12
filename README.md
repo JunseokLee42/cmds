@@ -239,7 +239,7 @@ python -c "import flash_attn; print(flash_attn.__version__)"
 
 ```
 pip install flash-attn --no-build-isolation # prevent from the dependency problem.
-pip install flash-attn --no-cache-dir # don't refer to cache directory for possible mismatch library.
+pip install flash-attn --no-cache-dir # don't refer to cache for possible mismatch library.
 ```
 </details>
 
