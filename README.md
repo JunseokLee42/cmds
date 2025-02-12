@@ -230,6 +230,17 @@ $ git lfs install
 ```
 pip freeze > requirements.txt
 ```
+
+<strong>2. Check Pytorch and flash-attention version</strong>
+```
+python -c "import torch; print(torch.__version__)"
+python -c "import flash_attn; print(flash_attn.__version__)"
+```
+
+```
+pip install flash-attn --no-build-isolation # prevent from the dependency problem.
+pip install flash-attn --no-cache-dir # don't refer to cache directory for possible mismatch library.
+```
 </details>
 
 <details>
