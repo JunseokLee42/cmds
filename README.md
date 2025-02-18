@@ -133,7 +133,7 @@ exit()
 </details>
 
 <details>
-<summary><h2><strong>zip extension</strong></h2></summary>
+<summary><h2><strong>Unzip</strong></h2></summary>
 
 <strong>Unzip your file in specified directory</strong>
 ```
@@ -155,6 +155,13 @@ wget <your_url>
 
 ```
 file_name.zip -d /path/to/directory
+```
+
+<strong>tar file</strong>
+```
+tar -xvzf file_name.tar.gz
+
+tar -xvzf fine_name.tar.gz -C path/to/destination/
 ```
 </details>
 
