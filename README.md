@@ -113,6 +113,10 @@ conda activate/deactivate
 conda create --name <new_name> --clone <old_env_name>
 e.g., conda create --name new_nev --clone llara
 ```
+<strong>8. Create current environment.yml</strong>
+```
+conda env export > environment.yml
+```
 </details>
 
 <details>
