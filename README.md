@@ -1,6 +1,8 @@
 > [!NOTE]
 > This repo is about a set of commands which might be useful for coding.
 
+[LLama Download](https://www.llama.com/llama-downloads/)
+
 <details>
 <summary><h2><strong>tmux </strong></h2></summary>
 
