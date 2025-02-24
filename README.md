@@ -353,4 +353,9 @@ stat file-name
 ```
 > file-name
 ```
+<strong>15. ls -l </strong>
+```
+ |m| g| o|      owner         group             last_edit   dir name
+drwxr-x--- 22 junseoklee   junseoklee    4096 Feb 24 11:13 junseoklee
+```
 </details>
