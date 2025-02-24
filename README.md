@@ -359,4 +359,9 @@ stat file-name
 drwxr-x--- 22 junseoklee   junseoklee    4096 Feb 24 11:13 junseoklee
 ```
 In case of directory, x means execution. You can access it via cd cmd.
+| Case | r | x | 설명 |
+|----------|----------|----------|----------|
+| ls dir  | Yes  | No  | 디렉토리 목록 보려면 r 필요 |
+| cd dir  | No  | Yes  | 디렉토리 진입하려면 x 필요 |
+| ls dir/file  | No  | Yes  | 디렉토리 내 파일 정보 보려면 x 필요 |
 </details>
