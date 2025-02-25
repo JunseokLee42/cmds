@@ -1,4 +1,4 @@
-> [!NOTE]
+![image](https://github.com/user-attachments/assets/37211385-1168-406f-aabc-bce48734a9d0)> [!NOTE]
 > This repo is about a set of commands which might be useful for coding.
 
 [LLama Download](https://www.llama.com/llama-downloads/)
@@ -60,7 +60,7 @@ nvcc -V
 ```
 du -sh .
 ```
-5. <strong>Check all running processes' id and command</strong>
+5. <strong>Check all running processes' id and command related to python</strong>
 ```
 nvidia-smi | grep python | awk '{print $5}' | xargs -I{} ps -p {} -o pid,cmd
 ```
@@ -76,6 +76,11 @@ top
 ```
 nvtop # recommended
 htop
+```
+9. <strong>Monitor certain process for GPU utilization</strong>
+```
+nvidia-smi pmon -i <GPU_NUM>
+e.g., nvidia-smi pmon -i 0
 ```
 </details>
 
