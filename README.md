@@ -87,6 +87,8 @@ e.g., nvidia-smi pmon -i 0
 |----------|----------|----------|----------|----------|----------|----------|----------|
 | 0  |   | C:Compute, G:Graphic | GPU utilization | allocated GPU mem amount | | | executed cmd |
 
+Type C is for computation such as CUDA or pytorch, and Type G is for graphic rendering job such as OpenGL.
+
 </details>
 
 <details>
