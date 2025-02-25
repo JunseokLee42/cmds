@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/37211385-1168-406f-aabc-bce48734a9d0)> [!NOTE]
+[!NOTE]
 > This repo is about a set of commands which might be useful for coding.
 
 [LLama Download](https://www.llama.com/llama-downloads/)
