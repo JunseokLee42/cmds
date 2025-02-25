@@ -83,7 +83,7 @@ nvidia-smi pmon -i <GPU_NUM>
 e.g., nvidia-smi pmon -i 0
 ```
 
-| GPU | PID | Type | SM(%) | Mem(MB) | Enc | Dec | Command |
+| GPU | PID | Type | SM(%) == Volatile GPU-Util| Mem(MB) == Memory Usage| Enc | Dec | Command |
 |----------|----------|----------|----------|----------|----------|----------|----------|
 | 0  |   | C:Compute, G:Graphic | GPU utilization | allocated GPU mem amount | | | executed cmd |
 
