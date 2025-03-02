@@ -403,3 +403,8 @@ docker compose down
 <strong>3. Essential files deploying containers</strong>
 
 Dockerfile, compose.yaml, .dockerignore
+
+<strong>4. Update running compose as coders edit and save codes</strong>
+```
+docker watch
+```
