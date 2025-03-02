@@ -395,6 +395,11 @@ docker compose up --build
 docker compose up --build -d
 ```
 
+<strong>2-1. Stop the container</strong>
+```
+docker compose down
+```
+
 <strong>3. Essential files deploying containers</strong>
 
 Dockerfile, compose.yaml, .dockerignore
