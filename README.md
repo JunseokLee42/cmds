@@ -377,3 +377,24 @@ In case of directory, x means execution. You can access it via cd cmd.
 | cd dir  | No  | Yes  | 디렉토리 진입하려면 x 필요 |
 | ls dir/file  | No  | Yes  | 디렉토리 내 파일 정보 보려면 x 필요 |
 </details>
+
+<details>
+<summary><h2><strong>Docker</strong></h2></summary>
+
+<strong>1. Check docker's executing containers</strong>
+```
+docker ps
+# list out including stopped containers
+docker ps -a
+```
+
+<strong>2. Create and Execute a container</strong>
+```
+docker compose up --build
+# background
+docker compose up --build -d
+```
+
+<strong>3. Essential files deploying containers</strong>
+
+Dockerfile, compose.yaml, .dockerignore
