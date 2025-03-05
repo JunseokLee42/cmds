@@ -138,6 +138,7 @@ Type C is for computation such as CUDA or pytorch, and Type G is for graphic ren
 
 10. <strong>Nohup for background processing</strong>
 ```
+export CUDA_VISIBLE_DEVICES=0,1,2,3
 nohup ~ &
 ```
 
