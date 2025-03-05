@@ -136,6 +136,11 @@ e.g., nvidia-smi pmon -i 0
 
 Type C is for computation such as CUDA or pytorch, and Type G is for graphic rendering job such as OpenGL.
 
+10. <strong>Nohup for background processing</strong>
+```
+nohup ~ &
+```
+
 </details>
 
 <details>
