@@ -4,6 +4,52 @@
 [LLama Download](https://www.llama.com/llama-downloads/)
 
 <details>
+<summary><h2>screen</h2></summary>
+
+0. <strong>Create a session</strong>
+```
+screen -S <session_name>
+```
+
+1. <strong>list screens</strong>
+```
+screen -ls
+```
+
+2. <strong>Re-enter screen</strong>
+```
+screen -r [session_name or ID]
+```
+
+3. <strong>toggle </strong>
+| Toggle | explanation |
+|----------|----------|
+| Ctrl+A, C  | Create new window in a session  |
+| Ctrl+A, N  | Move next window  |
+| Ctrl+A, P  | Move previous window  |
+| Ctrl+A, D  | Detach the session(move background)  |
+| Ctrl+A, "  | Print list of created windows  |
+| Ctrl+A, K  | Terminate current window  |
+
+4. <strong>Terminate session</strong>
+```
+exit
+screen -X -S <session_name or PID> quit
+pkill screen # stop all sessions
+
+ps aux | grep screen
+kill -9 <session id>
+```
+
+5. <strong>Activate scroll mode</strong>
+```
+Ctrl+A, [
+```
+
+
+</details>
+
+<details>
 <summary><h2><strong>tmux </strong></h2></summary>
 
 tmux is useful when you have to utilize multiple terminals concurrently without termination.(i.e., efficient terminal usage!)
