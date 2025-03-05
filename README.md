@@ -22,6 +22,7 @@ screen -r [session_name or ID]
 ```
 
 3. <strong>toggle </strong>
+
 | Toggle | explanation |
 |----------|----------|
 | Ctrl+A, C  | Create new window in a session  |
