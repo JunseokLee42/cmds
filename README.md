@@ -3,6 +3,8 @@
 
 [LLama Download](https://www.llama.com/llama-downloads/)
 
+[Tensorflow compatiability with CUDA in Korean](https://www.tensorflow.org/install/source?hl=ko#gpu)
+
 <details>
 <summary><h2>screen</h2></summary>
 
