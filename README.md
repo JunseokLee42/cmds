@@ -111,6 +111,9 @@ du -sh .
 ```
 nvidia-smi | grep python | awk '{print $5}' | xargs -I{} ps -p {} -o pid,cmd
 ```
+```
+ps aux | grep python
+```
 6. <strong>Print list of currently running prcoesses on background</strong>
 ```
 jobs
@@ -141,7 +144,18 @@ Type C is for computation such as CUDA or pytorch, and Type G is for graphic ren
 export CUDA_VISIBLE_DEVICES=0,1,2,3
 nohup ~ &
 ```
-
+11. <strong>More details in process</strong>
+```
+ps -fp <PID>
+```
+12. <strong>Terminate a process</strong>
+```
+kill <PID>
+```
+13. <strong>Select process using current port</strong>
+```
+netstat -tulnp | grep <port_num>
+```
 </details>
 
 <details>
