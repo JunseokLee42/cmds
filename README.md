@@ -221,6 +221,10 @@ or you can insert process termination call(i.e., exit()) into your code snippet
 ```
 exit()
 ```
+<strong>3. list of hidden extensions</strong>
+```
+ctrl + , -> search files.exclude
+```
 </details>
 
 <details>
