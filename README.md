@@ -109,6 +109,10 @@ nvcc -V
 ```
 du -sh .
 ```
+4-1. <strong>Identify specific directory's capacity</strong>
+```
+du -h --max-depth=1 <dir_path> | sort -hr
+```
 5. <strong>Check all running processes' id and command related to python</strong>
 ```
 nvidia-smi | grep python | awk '{print $5}' | xargs -I{} ps -p {} -o pid,cmd
