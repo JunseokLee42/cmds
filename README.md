@@ -343,6 +343,12 @@ python -c "import flash_attn; print(flash_attn.__version__)"
 pip install flash-attn --no-build-isolation # prevent from the dependency problem.
 pip install flash-attn --no-cache-dir # don't refer to cache for possible mismatch library.
 ```
+
+<strong>3. Install pytorch aligned with cuda version</strong>
+```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/your_cuda_version
+e.g., pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
 </details>
 
 <details>
