@@ -225,6 +225,22 @@ exit()
 ```
 ctrl + , -> search files.exclude
 ```
+<strong>4. Search for such keywords in file</strong>
+This command is not involved in VS Code. You can try terminal such as bash.
+```
+grep -r "variable" path/to/directory
+e.g., grep -r "TASK_MAPPING" ./LIBERO
+```
+The results above the example are as follows:
+```
+./LIBERO/libero/libero/envs/__init__.py:from .bddl_base_domain import TASK_MAPPING
+./LIBERO/libero/libero/envs/env_wrapper.py:        self.env = TASK_MAPPING[self.problem_name](
+./LIBERO/libero/libero/envs/bddl_base_domain.py:TASK_MAPPING = {}
+./LIBERO/libero/libero/envs/bddl_base_domain.py:    TASK_MAPPING[target_class.__name__.lower()] = target_class
+./LIBERO/scripts/create_dataset.py:    env = TASK_MAPPING[problem_name](
+./LIBERO/scripts/collect_demonstration.py:    env = TASK_MAPPING[problem_name](
+./LIBERO/scripts/libero_100_collect_demonstrations.py:    env = TASK_MAPPING[problem_name](
+```
 </details>
 
 <details>
