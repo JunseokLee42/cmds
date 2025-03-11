@@ -226,6 +226,7 @@ exit()
 ctrl + , -> search files.exclude
 ```
 <strong>4. Search for such keywords in file</strong>
+
 This command is not involved in VS Code. You can try terminal such as bash.
 ```
 grep -r "variable" path/to/directory
