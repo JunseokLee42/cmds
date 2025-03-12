@@ -148,7 +148,13 @@ Type C is for computation such as CUDA or pytorch, and Type G is for graphic ren
 10. <strong>Nohup for background processing</strong>
 ```
 export CUDA_VISIBLE_DEVICES=0,1,2,3
-nohup ~ &
+nohup ~ & 
+```
+
+If you want to save output log with a different filename, then add the following command to the above (dafault filename: nohup.out).
+
+```
+nohup ~ > libero_eval.log &
 ```
 11. <strong>More details in process</strong>
 ```
