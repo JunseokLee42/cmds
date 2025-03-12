@@ -151,10 +151,11 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3
 nohup ~ & 
 ```
 
-If you want to save output log with a different filename, then add the following command to the above (dafault filename: nohup.out).
+If you want to save output log with a different filename, then add the following command to the above.
 
 ```
-nohup ~ > libero_eval.log &
+# default filename: nohup.out
+> file_name.log
 ```
 11. <strong>More details in process</strong>
 ```
