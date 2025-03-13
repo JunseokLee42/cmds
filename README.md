@@ -372,6 +372,12 @@ pip install flash-attn --no-cache-dir # don't refer to cache for possible mismat
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/your_cuda_version
 e.g., pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
+
+<strong>4. Check version of library installed with pip</strong>
+```
+pip show <library_name>
+e.g., pip show smolagents
+```
 </details>
 
 <details>
