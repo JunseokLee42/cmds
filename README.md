@@ -23,16 +23,13 @@ screen -ls
 screen -r [session_name or ID]
 ```
 
-3. <strong>toggle </strong>
+3. <strong>toggle</strong>
 
 | Toggle | explanation |
 |----------|----------|
 | Ctrl+A, C  | Create new window in a session  |
-| Ctrl+A, N  | Move next window  |
-| Ctrl+A, P  | Move previous window  |
-| Ctrl+A, D  | Detach the session(move background)  |
-| Ctrl+A, "  | Print list of created windows  |
-| Ctrl+A, K  | Terminate current window  |
+| Ctrl+A  | Move window |
+| Ctrl+A, D or exit | Detach the session(move background)  |
 
 4. <strong>Terminate session</strong>
 ```
