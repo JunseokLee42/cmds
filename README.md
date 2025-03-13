@@ -394,6 +394,25 @@ vi file-name
 ```
 i
 ```
+<strong>3. Print and set environment variables</strong>
+```
+echo $YOUR_ENV_VARIABLE_NAME
+e.g., echo $CUDA_VISIBLE_DEVICES
+```
+
+If you want to set `environment variable` permanently, then you can use the following command:
+
+```
+echo "export <variable_name>=value" >>  ~/.bashrc
+source ~/.bashrc
+
+e.g.,
+echo "export CUDA_VISIBLE_DEVICES=0" >> ~/.bashrc
+source ~/.bashrc
+```
+
+However, I prefer to modifying `~/.bashrc` via `vi ~/.bashrc` rather than using the above in terms of readability.
+In details, the environment variable will be written at the very bottom after executing the above command.
 
 When you press ESC, then linux will be changed to command mode.
 
