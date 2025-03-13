@@ -283,38 +283,38 @@ tar -xvzf fine_name.tar.gz -C path/to/destination/
 <details>
 <summary><h2><strong>Git</strong></h2></summary>
   
-<strong>1. Print all branches</strong>
+<strong>Print all branches</strong>
 ```
 git branch
 ```
 
-<strong>2. move other branch</strong>
+<strong>move other branch</strong>
 ```
 git checkout <branch_name>
 ```
 
-<strong>3. Create a branch and move to it</strong>
+<strong>Create a branch and move to it</strong>
 ```
 git checkout -b <branch_name>
 ```
 
-<strong>4. Setting user name and email</strong>
+<strong>Setting user name and email</strong>
 ```
 git config user.name "Your Name"
 git config user.email "you@example.com"
 ```
 
-<strong>5. Check git's global setting</strong>
+<strong>Check git's global setting</strong>
 ```
 git config --global --list
 ```
 
-<strong>6. Print commit logs</strong>
+<strong>Print commit logs</strong>
 ```
 git log
 ```
 
-<strong>7. Clone not all but certain directories for big size repository(you can test it via [transformers](https://github.com/huggingface/transformers))</strong>
+<strong>Clone not all but certain directories for big size repository(you can test it via [transformers](https://github.com/huggingface/transformers))</strong>
 ```
 git clone --no-checkout <repo_url>
 ```
@@ -329,6 +329,12 @@ git sparse-checkout set dir1 dir2 ...
 ```
 ```
 git checkout main
+```
+
+<strong>Fetch modified remote repo without merge</strong>
+```
+git fetch origin
+git reset --hard origin/main
 ```
 
 <strong>8. Git lfs installation</strong>
