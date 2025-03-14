@@ -515,21 +515,50 @@ In case of directory, x means execution. You can access it via cd cmd.
 <details>
 <summary><h2><strong>Docker</strong></h2></summary>
 
-<strong>1. Check docker's executing containers</strong>
+<strong>Check docker's executing containers/images</strong>
 ```
 docker ps
 # list out including stopped containers
 docker ps -a
 ```
 
-<strong>2. Create and Execute a container</strong>
+```
+docker images
+docker rmi <image_id>
+```
+
+<strong>Pull(Download) predefined image</strong>
+```
+docker pull <dockerhub_name>
+e.g., docker pull pytorch/pytorch
+```
+
+<strong>Enter pulled image</strong>
+```
+'''
+--rm: temporal
+docker run -it --rm <image_name> <list of cmds>
+'''
+docker run -it --rm pytorch/pytorch /bin/bash
+```
+
+<strong>Save the container as image</strong>
+```
+docker commit <container_id> <intended_repo_name>:<tag>
+e.g.,
+docker commit 7e8e pytorch/example:jslee
+```
+
+<strong></strong>
+
+<strong>Create and Execute a container</strong>
 ```
 docker compose up --build
 # background
 docker compose up --build -d
 ```
 
-<strong>2-1. Stop the container</strong>
+<strong>Stop the container</strong>
 ```
 docker compose down
 ```
