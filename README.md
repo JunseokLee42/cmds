@@ -350,12 +350,12 @@ $ git lfs install
 <details>
 <summary><h2><strong>pip</strong></h2></summary>
 
-<strong>1. Itemize installed libraries</strong>
+<strong>Itemize installed libraries</strong>
 ```
 pip freeze > requirements.txt
 ```
 
-<strong>2. Check Pytorch and flash-attention version</strong>
+<strong>Check Pytorch and flash-attention version</strong>
 ```
 python -c "import torch; print(torch.__version__)"
 python -c "import flash_attn; print(flash_attn.__version__)"
@@ -366,16 +366,28 @@ pip install flash-attn --no-build-isolation # prevent from the dependency proble
 pip install flash-attn --no-cache-dir # don't refer to cache for possible mismatch library.
 ```
 
-<strong>3. Install pytorch aligned with cuda version</strong>
+<strong>Install pytorch aligned with cuda version</strong>
 ```
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/your_cuda_version
 e.g., pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
-<strong>4. Check version of library installed with pip</strong>
+<strong>Check version of library installed with pip</strong>
 ```
 pip show <library_name>
 e.g., pip show smolagents
+```
+
+<strong>Show state-of-the-art library installed with PyPI</strong>
+```
+pip index versions <library_name>
+e.g.,
+pip index versions flash-attn
+```
+
+Upgrade
+```
+pip install -U <library_name>
 ```
 </details>
 
