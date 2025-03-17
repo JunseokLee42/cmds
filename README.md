@@ -6,6 +6,19 @@
 [Tensorflow compatiability with CUDA in Korean](https://www.tensorflow.org/install/source?hl=ko#gpu)
 
 <details>
+<summary><h2>Pytorch</h2></summary>
+
+<strong>Allow dynamic memory allocation to prevent from segmentation</strong>
+
+```
+# More details in https://pytorch.org/docs/stable/notes/cuda.html
+export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
+```
+
+Remember that this technique cannot resolve fundamental OOM problems. i.e., You might resolve this issue by replacing the original with bigger gpu such as H200 !!
+</details>
+
+<details>
 <summary><h2>screen</h2></summary>
 
 0. <strong>Create a session</strong>
