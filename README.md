@@ -101,7 +101,7 @@ ctrl+b -> c
 </details>
 
 <details>
-<summary><h2><strong>Multi-gpu</strong></h2></summary>
+<summary><h2><strong>Multi-GPUs</strong></h2></summary>
 
 1. <strong>Check current storage capacity</strong>
 ```
@@ -224,6 +224,12 @@ conda env export > environment.yml
 
 <details>
 <summary><h2><strong>VS Code</strong></h2></summary>
+
+<strong>Manage kinds of hidden files</strong>
+```
+ctrl+shift+p
+files.exclude
+```
 
 <strong>1. Cwd path setting</strong>
 ```
