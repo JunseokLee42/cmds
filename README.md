@@ -246,6 +246,13 @@ exit()
 ```
 ctrl + , -> search files.exclude
 ```
+
+<strong>4. automatic formatting for json file</strong>
+```
+shift+alt+F # If you try to it with large-size(>20MB) json, then it cannot be executed.
+
+shift+option+F # for macOS
+```
 </details>
 
 <details>
