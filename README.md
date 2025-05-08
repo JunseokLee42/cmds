@@ -271,11 +271,6 @@ pip install gdown
 gdown --fuzzy (google drive link)
 ```
 
-<strong>Alternative to the above</strong>
-```
-wget <your_url>
-```
-
 ```
 file_name.zip -d /path/to/directory
 ```
@@ -547,6 +542,19 @@ In case of directory, x means execution. You can access it via cd cmd.
 | ls dir  | Yes  | No  | 디렉토리 목록 보려면 r 필요 |
 | cd dir  | No  | Yes  | 디렉토리 진입하려면 x 필요 |
 | ls dir/file  | No  | Yes  | 디렉토리 내 파일 정보 보려면 x 필요 |
+
+<strong>wget</strong>
+```
+wget -c <your_url> -O <output_path> -o output.log &
+e.g.,
+wget -c https://ai2-public-datasets.s3-us-west-2.amazonaws.com/charades/Charades_v1.zip -O /home/dataset/AVSD/Charades_v1.zip -o /home/dataset/AVSD/output.log &
+
+-c: continue(이어받기)
+-o: output log to file
+-O: output file path
+&: background execution
+```
+
 </details>
 
 <details>
