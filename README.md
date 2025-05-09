@@ -103,6 +103,11 @@ ctrl+b -> c
 <details>
 <summary><h2><strong>Multi-GPUs</strong></h2></summary>
 
+<strong> Monitor GPU status in regular </strong>
+```
+watch -n 1 nvidia-smi 
+```
+
 1. <strong>Check current storage capacity</strong>
 ```
 df -h
