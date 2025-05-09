@@ -357,6 +357,16 @@ $ ./install.sh
 # You can check whether to succeed to install git lfs via the below command.
 $ git lfs install
 ```
+
+<strong>Exclude added file to be commited</strong>
+```
+# delete all added files
+git reset HEAD
+
+# delete certain added file
+git reset HEAD path/to/file
+```
+
 </details>
 
 <details>
