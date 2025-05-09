@@ -560,6 +560,11 @@ wget -c https://ai2-public-datasets.s3-us-west-2.amazonaws.com/charades/Charades
 &: background execution
 ```
 
+<strong>Identify process which occupies with certain port</strong>
+```
+lsof -i :<port_no>
+e.g., lsof -i :29500
+```
 </details>
 
 <details>
