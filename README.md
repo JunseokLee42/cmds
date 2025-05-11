@@ -13,6 +13,10 @@
 ```
 # More details in https://pytorch.org/docs/stable/notes/cuda.html
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
+
+# alternatives in code
+import os
+os.environ['PYTORCH_CUDA_ALLOC_CONF'] = "expandable_segments:True"
 ```
 
 Remember that this technique cannot resolve fundamental OOM problems. i.e., You might resolve this issue by replacing the original with bigger gpu such as H200 !!
