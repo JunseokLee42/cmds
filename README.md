@@ -574,7 +574,10 @@ wget -c https://ai2-public-datasets.s3-us-west-2.amazonaws.com/charades/Charades
 &: background execution
 ```
 
-<strong>Identify process which occupies with certain port</strong>
+<strong>Identify process occupied with certain port</strong>
+
+If you encounters the problem, occupied process in certain port, you can resolve it by selecting port_no and then killing process.
+
 ```
 lsof -i :<port_no>
 e.g., lsof -i :29500
