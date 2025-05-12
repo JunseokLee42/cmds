@@ -576,7 +576,11 @@ wget -c https://ai2-public-datasets.s3-us-west-2.amazonaws.com/charades/Charades
 
 <strong>Identify process occupied with certain port</strong>
 
-If you encounters the problem, occupied process in certain port, you can resolve it by selecting port_no and then killing process.
+```
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+```
+
+If you are struggling with the above problem, occupied process in certain port, you can resolve it by selecting port_no and then killing process.
 
 ```
 lsof -i :<port_no>
