@@ -424,7 +424,7 @@ If you change the file which extension is csv, then you might as well save xlsx 
 </details>
 
 <details>
-<summary><h2><strong>Linux</strong></h2></summary>
+<summary><h2><strong>bash</strong></h2></summary>
 
 <strong>Search for such keywords in file</strong>
 
@@ -585,6 +585,20 @@ If you are struggling with the above problem, occupied process in certain port, 
 ```
 lsof -i :<port_no>
 e.g., lsof -i :29500
+```
+
+<strong>mv></strong>
+
+You can move certain files or directories to destination via `mv`.
+```
+mv <file_name> <destination_path>
+e.g., mv file.txt /home/junseoklee/~
+```
+
+You can also modify your original file name.
+```
+mv <original_filename> <renewed_filename>
+e.g., mv 
 ```
 </details>
 
