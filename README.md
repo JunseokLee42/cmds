@@ -128,6 +128,11 @@ nvcc -V
 ```
 du -sh .
 ```
+
+Sort by hidden files/directories
+```
+du -sh .[!.]* * | sort -h
+```
 4-1. <strong>Identify specific directory's capacity</strong>
 ```
 du -h --max-depth=1 <dir_path> | sort -hr
