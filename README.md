@@ -133,6 +133,7 @@ du -sh *
 Sort by hidden files/directories
 ```
 du -sh .[!.]* * | sort -h
+du -sh .[!.]* * | sort -hr # sorted by descending order
 ```
 
 4-1. <strong>Identify specific directory's capacity</strong>
