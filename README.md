@@ -444,6 +444,11 @@ If you change the file which extension is csv, then you might as well save xlsx 
 <details>
 <summary><h2><strong>bash</strong></h2></summary>
 
+<strong>mkdir</strong>
+```
+mkdir -p data/{pdf,html,youtube,docx,ppt,txt,output,generated,cleaned,final}
+```
+
 <strong>Search for such keywords in file</strong>
 
 ```
