@@ -682,6 +682,7 @@ Dockerfile, compose.yaml, .dockerignore
 ```
 docker watch
 ```
+</details>
 
 <details>
 <summary><h2>vLLM</h2></summary>
