@@ -662,8 +662,6 @@ e.g.,
 docker commit 7e8e pytorch/example:jslee
 ```
 
-<strong></strong>
-
 <strong>Create and Execute a container</strong>
 ```
 docker compose up --build
@@ -684,3 +682,13 @@ Dockerfile, compose.yaml, .dockerignore
 ```
 docker watch
 ```
+
+<details>
+<summary><h2>vLLM</h2></summary>
+  
+<strong>Serve model without mentioned supported list</strong>
+```
+vllm serve [huggingface_repo or local_path]
+```
+
+</details>
