@@ -8,8 +8,6 @@
 
 [Tensorflow compatiability with CUDA in Korean](https://www.tensorflow.org/install/source?hl=ko#gpu)
 
-[CUDA Toolkit archive](https://developer.nvidia.com/cuda-toolkit-archive)
-
 [vLLM supported model list](https://docs.vllm.ai/en/latest/models/supported_models.html#text-generation)
 
 [vLLM supported GPU](https://docs.vllm.ai/en/latest/getting_started/installation/gpu.html#install-the-latest-code-using-pip)  
