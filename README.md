@@ -246,6 +246,12 @@ e.g., conda create --name new_nev --clone llara
 ```
 conda env export > environment.yml
 ```
+<storng>9. Install library dependency via environment.yaml</strong>
+```
+conda env update --name <env-name> --file environment.yaml
+# In the activated env
+conda env update --file environment.yaml
+```
 </details>
 
 <details>
