@@ -6,15 +6,19 @@
   
 [LLama Download](https://www.llama.com/llama-downloads/)
 
-[Tensorflow compatiability with CUDA in Korean](https://www.tensorflow.org/install/source?hl=ko#gpu)
-
 [Previous Pytorch version](https://pytorch.kr/get-started/previous-versions/)
 
-[CUDA Toolkit version](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#cuda-major-component-versions)
+[Tensorflow compatiability with CUDA in Korean](https://www.tensorflow.org/install/source?hl=ko#gpu)
+
+[CUDA Toolkit archive](https://developer.nvidia.com/cuda-toolkit-archive)
+
+[Compatiability between CUDA Toolkit and Driver](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#cuda-major-component-versions)
 
 [cuDNN archive](https://developer.nvidia.com/rdp/cudnn-archive)
 
 [nvidia-smi 각 요소에 대한 설명](https://jjuke-brain.tistory.com/entry/GPU-%EC%84%9C%EB%B2%84-%EC%82%AC%EC%9A%A9%EB%B2%95-CUDA-PyTorch-%EB%B2%84%EC%A0%84-%EB%A7%9E%EC%B6%94%EA%B8%B0-%EC%B4%9D%EC%A0%95%EB%A6%AC)
+
+Since this post is written in Korean, I used my mother tongue language.
 
 [vLLM supported model list](https://docs.vllm.ai/en/latest/models/supported_models.html#text-generation)
 
