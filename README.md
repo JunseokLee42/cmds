@@ -12,6 +12,8 @@
 
 [CUDA Toolkit version](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#cuda-major-component-versions)
 
+[cuDNN archive](https://developer.nvidia.com/rdp/cudnn-archive)
+
 [vLLM supported model list](https://docs.vllm.ai/en/latest/models/supported_models.html#text-generation)
 
 [vLLM supported GPU](https://docs.vllm.ai/en/latest/getting_started/installation/gpu.html#install-the-latest-code-using-pip)  
