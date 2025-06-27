@@ -39,6 +39,12 @@ import os
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = "expandable_segments:True"
 ```
 
+```
+torch.no_grad()
+
+torch.inference_mode()
+```
+
 Remember that this technique cannot resolve fundamental OOM problems. i.e., You might resolve this issue by replacing the original with bigger gpu such as H200 !!
 </details>
 
