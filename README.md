@@ -335,6 +335,14 @@ tar -xvzf file_name.tar.gz
 
 tar -xvzf fine_name.tar.gz -C path/to/destination/
 ```
+
+<strong>Merge segments into a file</strong>
+```
+cat file_name1 file_name2 > file_name.zip
+e.g., cat Uground_images_split.z01 Uground_images_split.z02 > Uground_images.zip
+```
+
+Then you will be able to unzip the whole file.
 </details>
 
 <details>
