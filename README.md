@@ -128,6 +128,11 @@ ctrl+b -> d
 ctrl+b -> c
 ```
 
+6. <strong>Prerequisite for execution conda</strong>
+```
+bash --login
+```
+
 </details>
 
 <details>
