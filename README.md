@@ -342,6 +342,8 @@ If having multiple segments of a file(e.g., split.z01, split.z02  ..., and split
 Then, you can get a merged file by executing ``7z``.
 Finally, it will be able to result in intended file by unzipping newly generated file.
 
+You can test it via [Uground in GUI-Actor-Data](https://huggingface.co/datasets/cckevinn/GUI-Actor-Data/tree/main)
+
 ```
 (sudo) apt-get install p7zip-full
 7z x Uground_images_split.zip
