@@ -336,13 +336,17 @@ tar -xvzf file_name.tar.gz
 tar -xvzf fine_name.tar.gz -C path/to/destination/
 ```
 
-<strong>Merge segments into a file</strong>
-```
-cat file_name1 file_name2 > file_name.zip
-e.g., cat Uground_images_split.z01 Uground_images_split.z02 > Uground_images.zip
-```
+<strong>unzip multiple files via 7z</strong>
 
-Then you will be able to unzip the whole file.
+If having multiple segments of a file(e.g., split.z01, split.z02  ..., and split.zip), first of all you should check existence of zip file (i.e., split.zip).
+Then, you can get a merged file by executing ``7z``.
+Finally, it will be able to result in intended file by unzipping newly generated file.
+
+```
+(sudo) apt-get install p7zip-full
+7z x Uground_images_split.zip
+unzip <newly generated file_name>
+```
 </details>
 
 <details>
