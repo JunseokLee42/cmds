@@ -133,6 +133,14 @@ ctrl+b -> c
 bash --login
 ```
 
+<strong>add scroll in terminal</strong>
+```
+vi ~/.tmux.conf
+set -g mouse on
+:wq!
+tmux source-file ~/.tmux.conf
+```
+
 </details>
 
 <details>
