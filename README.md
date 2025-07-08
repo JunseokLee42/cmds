@@ -613,6 +613,8 @@ e.g., scp -r /hw js@192.x.x.x:/Users/JS/Desktop/
 ```
 $ssh serverA_username@ip # access serverA via ssh
 $sftp -P port_num serverB_username@ip # Access serverA to serverB via sftp
+
+$scp -i ~/.ssh/id_rsa -P 30024 -r <data_path> root@<serverB_ip>:/home/root/
 ```
 <strong>13. Log last access time, modified time and last change mode time</strong>
 ```
