@@ -341,7 +341,8 @@ file_name.zip -d /path/to/directory
 ```
 tar -xvzf file_name.tar.gz 
 
-tar -czf file_name.tar.gz --exclude='desired exclude path' path/to/destination
+# -v: verbose
+tar -czvf file_name.tar.gz --exclude='desired exclude path' path/to/destination
 
 tar -xvzf fine_name.tar.gz -C path/to/destination/
 ```
