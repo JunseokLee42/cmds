@@ -6,7 +6,7 @@
   
 [LLama Download](https://www.llama.com/llama-downloads/)
 
-[Previous Pytorch version](https://pytorch.kr/get-started/previous-versions/)
+[이전 파이토치 버전, Previous Pytorch version](https://pytorch.kr/get-started/previous-versions/)
 
 [Tensorflow compatiability with CUDA in Korean](https://www.tensorflow.org/install/source?hl=ko#gpu)
 
